@@ -1,4 +1,5 @@
 import Slider from "./components/Slider";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return <>
 
   <Slider />;
+  <Footer/>;
   </>
 }
 
