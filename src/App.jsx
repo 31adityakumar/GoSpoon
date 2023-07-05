@@ -1,14 +1,10 @@
-import Slider from "./components/Slider";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar/Navbar";
+import Homepage from "./Pages";
 
 
 function App() {
 
   return <>
-  <Navbar/>
-  <Slider />;
-  <Footer/>;
+  <Homepage/>;
   </>
 }
 

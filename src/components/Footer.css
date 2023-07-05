@@ -1,6 +1,6 @@
 .main {
-    width: 100%;
-    height: auto; 
+    width: 100vw;
+    /* height: auto;  */
     background-color: rgb(10, 175, 40);
     margin-top: auto;
     display: flex;
