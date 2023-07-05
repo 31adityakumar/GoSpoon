@@ -3,7 +3,7 @@ import imagefb from '../assets/fb.png';
 import imageig from '../assets/ig.png';
 import imagewp from '../assets/wapp.png';
 import imagetw from '../assets/twitter.png';
-import imagelogo from '../../public/Logo.jpg';
+import imagelogo from '../assets/Logo.jpg';
 
 const Footer = () => {
   return (
