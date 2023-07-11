@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
 import styles from "./Navbar.module.scss";
+import Data from '../../assets/Data/Data.json'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -21,11 +22,15 @@ const Navbar = () => {
       className={toggle ? `${styles.navbar} ${styles.expanded}` : styles.navbar}
     >
       <section className={styles.left}>
-        <div className={styles.logoPart}>
-          <a href="/">
-            <img src="../../../public/Logo.jpg" alt="FoodW" />
-          </a>
-        </div>
+        {Data.map( data=> {
+          return(
+            <div className={styles.logoPart} key={data.id}> 
+            <a href="/">
+              <img src={data.logo} />
+            </a>
+          </div>
+          )
+        })}
       </section>
       <section className={styles.right}>
         <button className={styles.toggleIcon} onClick={handleToggle}>

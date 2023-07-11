@@ -1,14 +1,14 @@
 import  { useEffect, useState } from "react";
 
 import SliderContent from "./SliderContent";
-import Dots from "./Dots";
-import Arrows from "./Arrows";
+import Dots from "../Corousel/Dots";
+import Arrows from "../Corousel/Arrows";
 import landingSlider from "./landingSlider";
 import "./slider.css";
 
 const len = landingSlider.length - 1;
 
-function Slider(props) {
+function Slider() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
