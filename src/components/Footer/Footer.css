@@ -1,8 +1,8 @@
 .main {
     width: 100vw;
-    /* height: auto;  */
+    height: auto; 
     background-color: rgb(10, 175, 40);
-    margin-top: auto;
+    margin-top: 3vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

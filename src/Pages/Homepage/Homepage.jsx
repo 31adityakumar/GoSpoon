@@ -7,9 +7,10 @@ const Homepage = () => {
         <div className="home">
             <Navbar/>
             <Slider/>
+
             <Footer/>
         </div>
     )
 }
 
-export default Homepage;
+export default Homepage

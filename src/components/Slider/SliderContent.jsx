@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-
+import '../Slider/slider.css'
 function SliderContent({ activeIndex, sliderImage }) {
   return (
     <section>
