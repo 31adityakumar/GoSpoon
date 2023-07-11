@@ -28,6 +28,7 @@
 }
 .right ul li {
   list-style: none;
+  margin-right: 1.5rem;
   font-size: 1.35vw;
   font-weight: 600;
   cursor: pointer;
@@ -131,7 +132,9 @@
   .right ul li  {
     margin-bottom: 1rem ;
     font-size: 1.5rem;
+    margin-right: 0;
   }
+  
 }
 @media only screen and (max-width: 600px)  {
     .navbar {
