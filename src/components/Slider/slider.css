@@ -103,7 +103,7 @@
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px)  {
   .slides:nth-child(2) .slide-text,
   .slides:nth-child(3) .slide-text,
   .slides:nth-child(4) .slide-text {
@@ -113,7 +113,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .slides:nth-child(2) .slide-text,
   .slides:nth-child(3) .slide-text,
   .slides:nth-child(4) .slide-text {
