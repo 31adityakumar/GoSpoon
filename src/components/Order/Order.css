@@ -1,0 +1,14 @@
+.mainSec{
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    border: 5px solid peachpuff;
+}
+.mainSec ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainSec li{
+    margin: 2rem;
+}
