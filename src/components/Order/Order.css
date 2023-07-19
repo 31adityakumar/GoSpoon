@@ -1,14 +1,22 @@
-.mainSec{
+.mainSec {
     margin: 2rem;
-    padding: 2rem;
+    padding: 2rem 1rem;
     text-align: center;
     border: 5px solid peachpuff;
 }
-.mainSec ol{
+
+.order {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    margin: 2rem 0rem;
 }
-.mainSec li{
-    margin: 2rem;
+
+.mainSec p {
+    margin: 1.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .order{
+        flex-direction: column;
+    }
 }
