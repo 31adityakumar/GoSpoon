@@ -7,7 +7,7 @@ const Footer = () => {
         return (
           <div className="main" key={data.id}>
             <div className="firstbox">
-              <img className="wp" src={data.logo} alt="logo" />
+              <img className="logo" src={data.logo} alt="logo" />
             </div>
             <div className="secondbox">
               <p>FOLLOW US </p>
